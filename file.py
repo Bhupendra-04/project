@@ -1,4 +1,4 @@
-user_name=input("enter your name to store in file with permanently ")
+user_name=input("enter your name to store in file with permanently with no loss of data:")
 if user_name:
     with open("user_info.txt","a")as file:
         file.write(user_name+"\n")
