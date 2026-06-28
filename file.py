@@ -1,4 +1,4 @@
-user_name=input("enter your name to store in file ")
+user_name=input("enter your name to store in file with permanently ")
 if user_name:
     with open("user_info.txt","a")as file:
         file.write(user_name+"\n")
@@ -12,3 +12,4 @@ if show_info=="y":
     else:
         for line in content:
             print(f"{line.rstrip()}")
+            
